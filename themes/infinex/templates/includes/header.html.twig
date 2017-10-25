@@ -1,0 +1,43 @@
+<div class="header-bottom"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7">
+						<div class="main-menu pull-left">
+						{{ page.menublock }}
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="search-box pull-right">
+							<form role="search" class="search-form" action="/searches">
+								<div class="input-group">
+									<div class="input-group-btn">
+										<button type="button" class="btn btn-default dropdown-toggle choose" data-toggle="dropdown">
+											<span id="srch-category">All</span> <span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" id="mnu-category">
+											<li><a href="/searches#Products">Products</a></li>
+											<li><a href="/searches#Technical">Technical Documentation</a></li>
+											<li><a href="/searches#Support">Support</a></li>
+											<li><a href="/searches#MPN">MPN Cross Reference</a></li>
+											<li><a href="/searches#Selector">Component Selector</a></li>
+											<li><a href="/searches#Quality">Quality</a></li>
+										</ul>
+									</div>
+									<input type="hidden" id="txt-category">
+									<input type="text" id="txt-search" class="form-control" placeholder="Search for...">
+									<span class="input-group-btn">
+										<button id="btn-search" type="submit" class="btn btn-default mlens">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div><!--/header-middle-->
+
+	
